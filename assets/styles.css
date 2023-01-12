@@ -1,0 +1,10 @@
+body {
+    background: url("/assets/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+   
