@@ -1,10 +1,19 @@
 body {
-    background: url("/assets/background.svg");
+    background: url("/assets/background.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+
+
 h1 {
     text-align: center;
 }
-   
+
+nav {
+    outline: 1px solid red;
+}
+
+nav a {
+    padding: 16px;
+}
