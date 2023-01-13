@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     
     <style>
         #homeIcon {
-            color: #E31B1B;
+            color: #c21c1c;
             font-size: 3em;
             padding: 10px;
         }

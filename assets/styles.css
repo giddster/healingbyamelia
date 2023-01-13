@@ -1,19 +1,47 @@
-body {
-    background: url("/assets/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Kiwi+Maru&display=swap');
+
+:root {
+    --heading-font: 'Kirang Haerang', cursive;
+    --body-font: 'Kiwi Maru', serif;
+    --primary-color: #c21c1c;
 }
 
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
 
+body {
+    font-family: var(--body-font);
+    /* background: url("/assets/background5.png") no-repeat center center fixed;
+    background-size: cover; */
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+}
 
 h1 {
     text-align: center;
+    font-size: 3.5em;
+    color: var(--primary-color);
+    margin: 0;
 }
 
-nav {
-    outline: 1px solid red;
+.landingpage-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 400px auto;
+    width: 50%;
+    font-size: 2em;
 }
 
 nav a {
     padding: 16px;
+    color: white;
+}
+
+nav a:hover {
+    color: lightgray;
 }
