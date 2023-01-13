@@ -10,6 +10,7 @@ class Header extends HTMLElement {
             color: #c21c1c;
             font-size: 3em;
             padding: 10px;
+            margin-left: 20px;
         }
     </style>
     
