@@ -1,23 +1,71 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Healing by Amelia - massage and spiritual recovery</title>
-        <link rel="stylesheet" href="/assets/styles.css">
-        <script src="/components/header.js" type="text/javascript" defer></script>
-        <script src="/components/background.js" type="text/javascript" defer></script>
-        <script src="https://kit.fontawesome.com/d71c6a30a4.js" crossorigin="anonymous"></script>
-    </head>
 
-    <body>
-        <header-component></header-component>
-        <background-component></background-component>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healing by Amelia - massage and spiritual recovery</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/components/header.js" type="text/javascript" defer></script>
+    <script src="/components/background.js" type="text/javascript" defer></script>
+    <script src="https://kit.fontawesome.com/d71c6a30a4.js" crossorigin="anonymous"></script>
+</head>
 
-        <main>
-            <h1>Contact me</h1>
-    
-            
-        </main>
-    </body>
+<body>
+    <header-component></header-component>
+    <background-component></background-component>
+
+    <main>
+        <h1>Contact me</h1>
+
+        <section>
+            <h2>Send me a message</h2>
+
+            <form action="/views/thankyou.html">
+                <fieldset>
+                    <!-- <legend>Send me a message</legend> -->
+
+                    <label for="name">Your name</label>
+                    <input type="text" name="name" id="" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="" required>
+
+                    <label for="phone">Phone number</label>
+                    <input type="tel" name="phone" id="" required>
+
+                    <textarea name="message" id="" cols="30" rows="3" placeholder="Your message..." required></textarea>
+
+                    <button type="submit">Send message</button>
+
+                </fieldset>
+            </form>
+
+        </section>
+
+        <section>
+            <h2>
+                Contact details
+            </h2>
+
+            <i class="fa-solid fa-location-dot"></i>
+            <address>
+                Healing By Amelia <br>
+                1704 Center Street <br>
+                Mount Vernon, Oregon, 97865
+            </address>
+
+            <i class="fa-regular fa-envelope"></i>
+            <a href="mailto:hello@healingbyamelia.com">hello@healingbyamelia.com</a>
+
+            <i class="fa-solid fa-phone"></i>
+            <p> +1 202-918-2132</p>
+
+            <i class="fa-brands fa-instagram"></i>
+            <p>@healingbyamelia</p>
+        </section>
+
+    </main>
+</body>
+
 </html>
