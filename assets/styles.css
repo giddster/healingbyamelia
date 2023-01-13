@@ -19,7 +19,9 @@ body {
     color: white;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--heading-font);
 }
 
@@ -45,4 +47,13 @@ nav a {
 
 nav a:hover {
     color: lightgray;
+}
+
+#avatar {
+    border-radius: 80%;
+    outline: 5px solid white;
+    width: 12%;
+    display: flex;
+    place-content: center;
+    margin: 0 auto;
 }
