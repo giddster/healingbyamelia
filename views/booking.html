@@ -18,42 +18,48 @@
     <main>
         <h1>Schedule an appointment</h1>
 
-        <section class="appointment-form">
-            <form action="/views/thankyoubooking.html">
-
-                <label for="treatment-select">Choose a treatment:</label>
-                <select id="treatment-select">
-                    <optgroup label="Massage">
-                        <option>Shiatsu massage</option>
-                        <option>Hot stone massage</option>
-                        <option>Essential oil massage</option>
-                    </optgroup>
-                    <optgroup label="Reiki">
-                        <option>General healing </option>
-                        <option>Area-focused healing </option>
-                    </optgroup>
-                    <optgroup label="Guided meditation">
-                        <option>Traditional shinto meditation</option>
-                        <option>Spirit journey</option>
-                        <option>Exploring our inner spirits</option>
-                    </optgroup>
-                </select>
-        
-               
-                <label for="treatment-duration">Select length of treatment:</label>
-        
-                    <input type="radio"  name="treatment-duration"> 30 minutes
-        
-                    <input type="radio"  name="treatment-duration" checked> 60 minutes
-        
-                    <input type="radio"  name="treatment-duration"> 90 minutes
-                
+        <section id="appointmentSection">
+            <fieldset>
+                <form action="/views/thankyoubooking.html">
     
-                <label for="appointment-date">Choose date and time: </label>
-                    <input type="datetime-local" name="appointment-date" id="" required>
+                    <label for="treatment-select">Choose a treatment:</label>
+                        <select id="treatment-select">
+                            
+                            <optgroup label="Massage">
+                                <option>Shiatsu massage</option>
+                                <option>Hot stone massage</option>
+                                <option>Essential oil massage</option>
+                            </optgroup>
     
-                <button type="submit">Schedule appointment</button>
-            </form>
+                            <optgroup label="Reiki">
+                                <option>General healing </option>
+                                <option>Area-focused healing </option>
+                            </optgroup>
+    
+                            <optgroup label="Guided meditation">
+                                <option>Traditional shinto meditation</option>
+                                <option>Spirit journey</option>
+                                <option>Exploring our inner spirits</option>
+                            </optgroup>
+    
+                        </select>
+            
+                   
+                    <label for="treatment-duration">Select length of treatment:</label>
+            
+                        <input type="radio"  name="treatment-duration"> 30 minutes
+            
+                        <input type="radio"  name="treatment-duration" checked> 60 minutes
+            
+                        <input type="radio"  name="treatment-duration"> 90 minutes
+                    
+        
+                    <label for="appointment-date">Select date and time: </label>
+                        <input type="datetime-local" name="appointment-date" id="" required>
+        
+                    <button type="submit">Schedule appointment</button>
+                </form>
+            </fieldset>
         </section>
         
         

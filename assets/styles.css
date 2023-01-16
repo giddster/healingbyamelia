@@ -14,8 +14,6 @@ html {
 
 body {
     font-family: var(--body-font);
-    /* background: url("/assets/background5.png") no-repeat center center fixed;
-    background-size: cover; */
     color: white;
 }
 
@@ -51,9 +49,72 @@ nav a:hover {
 
 #avatar {
     border-radius: 80%;
-    outline: 5px solid white;
+    outline: 5px solid var(--primary-color);
     width: 12%;
     display: flex;
     place-content: center;
     margin: 0 auto;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 200px auto;
+}
+
+.services-wrapper h4 {
+    font-size: 1.5em;
+}
+
+.services-wrapper img {
+    width: 300px;
+    height: 250px;
+}
+
+.services-wrapper section {
+    width: 30%;
+    padding: 15px;
+}
+
+.services-wrapper h4 {
+    margin: 10px;
+}
+
+#appointmentSection {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#aboutSection {
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+}
+
+#aboutSection article {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 1.4em;
+}
+
+
+#aboutSection h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px;
+}
+
+.contact-wrapper {
+    margin: 0 auto;;
+    display: flex;
+    width: 70%;
 }
